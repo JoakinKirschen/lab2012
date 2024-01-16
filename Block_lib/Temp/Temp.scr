@@ -1,0 +1,91 @@
+FileOpen
+"C:\Users\p701650\AppData\Roaming\AutoCAD 2016\lab2012\Block_lib\Blocks\Industrie\Gabarit Treinwagon.dwg"
+DONUT 0 0.00000001 (getvar "INSBASE") 
+ZOOM E
+DONUT 0 (/ (getvar "VIEWSIZE") 25.0) (getvar "INSBASE") 
+CHPROP L  C 6 
+ZOOM 0.95X
+REGEN 
+MSLIDE
+"C:\Users\p701650\AppData\Roaming\AutoCAD 2016\lab2012\Block_lib\Blocks\Industrie\Gabarit Treinwagon.sld"
+FileOpen
+Y
+"C:\Users\p701650\AppData\Roaming\AutoCAD 2016\lab2012\Block_lib\Blocks\Industrie\Kooiladder boven vooruitstap.dwg"
+DONUT 0 0.00000001 (getvar "INSBASE") 
+ZOOM E
+DONUT 0 (/ (getvar "VIEWSIZE") 25.0) (getvar "INSBASE") 
+CHPROP L  C 6 
+ZOOM 0.95X
+REGEN 
+MSLIDE
+"C:\Users\p701650\AppData\Roaming\AutoCAD 2016\lab2012\Block_lib\Blocks\Industrie\Kooiladder boven vooruitstap.sld"
+FileOpen
+Y
+"C:\Users\p701650\AppData\Roaming\AutoCAD 2016\lab2012\Block_lib\Blocks\Industrie\Kooiladder boven zijuitstap.dwg"
+DONUT 0 0.00000001 (getvar "INSBASE") 
+ZOOM E
+DONUT 0 (/ (getvar "VIEWSIZE") 25.0) (getvar "INSBASE") 
+CHPROP L  C 6 
+ZOOM 0.95X
+REGEN 
+MSLIDE
+"C:\Users\p701650\AppData\Roaming\AutoCAD 2016\lab2012\Block_lib\Blocks\Industrie\Kooiladder boven zijuitstap.sld"
+FileOpen
+Y
+"C:\Users\p701650\AppData\Roaming\AutoCAD 2016\lab2012\Block_lib\Blocks\Industrie\Kooiladder voor.dwg"
+DONUT 0 0.00000001 (getvar "INSBASE") 
+ZOOM E
+DONUT 0 (/ (getvar "VIEWSIZE") 25.0) (getvar "INSBASE") 
+CHPROP L  C 6 
+ZOOM 0.95X
+REGEN 
+MSLIDE
+"C:\Users\p701650\AppData\Roaming\AutoCAD 2016\lab2012\Block_lib\Blocks\Industrie\Kooiladder voor.sld"
+FileOpen
+Y
+"C:\Users\p701650\AppData\Roaming\AutoCAD 2016\lab2012\Block_lib\Blocks\Industrie\Kooiladder zij.dwg"
+DONUT 0 0.00000001 (getvar "INSBASE") 
+ZOOM E
+DONUT 0 (/ (getvar "VIEWSIZE") 25.0) (getvar "INSBASE") 
+CHPROP L  C 6 
+ZOOM 0.95X
+REGEN 
+MSLIDE
+"C:\Users\p701650\AppData\Roaming\AutoCAD 2016\lab2012\Block_lib\Blocks\Industrie\Kooiladder zij.sld"
+FileOpen
+Y
+"C:\Users\p701650\AppData\Roaming\AutoCAD 2016\lab2012\Block_lib\Blocks\Industrie\Trede.dwg"
+DONUT 0 0.00000001 (getvar "INSBASE") 
+ZOOM E
+DONUT 0 (/ (getvar "VIEWSIZE") 25.0) (getvar "INSBASE") 
+CHPROP L  C 6 
+ZOOM 0.95X
+REGEN 
+MSLIDE
+"C:\Users\p701650\AppData\Roaming\AutoCAD 2016\lab2012\Block_lib\Blocks\Industrie\Trede.sld"
+FileOpen
+Y
+"C:\Users\p701650\AppData\Roaming\AutoCAD 2016\lab2012\Block_lib\Blocks\Industrie\Truck Front.dwg"
+DONUT 0 0.00000001 (getvar "INSBASE") 
+ZOOM E
+DONUT 0 (/ (getvar "VIEWSIZE") 25.0) (getvar "INSBASE") 
+CHPROP L  C 6 
+ZOOM 0.95X
+REGEN 
+MSLIDE
+"C:\Users\p701650\AppData\Roaming\AutoCAD 2016\lab2012\Block_lib\Blocks\Industrie\Truck Front.sld"
+FileOpen
+Y
+"C:\Users\p701650\AppData\Roaming\AutoCAD 2016\lab2012\Block_lib\Blocks\Industrie\Truck Top.dwg"
+DONUT 0 0.00000001 (getvar "INSBASE") 
+ZOOM E
+DONUT 0 (/ (getvar "VIEWSIZE") 25.0) (getvar "INSBASE") 
+CHPROP L  C 6 
+ZOOM 0.95X
+REGEN 
+MSLIDE
+"C:\Users\p701650\AppData\Roaming\AutoCAD 2016\lab2012\Block_lib\Blocks\Industrie\Truck Top.sld"
+FileOpen
+Y
+"C:\Users\p701650\appdata\roaming\autocad 2016\lab2012\block_lib\Custom\Blk_Lib.dwg"
+(princ "\n \n ")(princ)
