@@ -1,0 +1,874 @@
+<?xml version="1.0"?>
+<!--
+Warning! Do not edit the contents of this file.
+If you attempt to edit this file using an XML editor, you could lose customization and migration functionality.
+If you need to change information in the customization file, use the Customize User Interface dialog box in the product.
+To access the Customize User Interface dialog box, click the Tools menu > Customize > Interface, or enter CUI on the command line. 
+-->
+<CustSection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileVersion MajorVersion="0" MinorVersion="4" IncrementalVersion="1" UserVersion="1" />
+  <Header>
+    <CommonConfiguration>
+      <CommonItems>
+        <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+      </CommonItems>
+    </CommonConfiguration>
+    <WorkspaceRoot>
+      <WorkspaceConfigRoot />
+    </WorkspaceRoot>
+  </Header>
+  <MenuGroup Name="MOD">
+    <MacroGroup Name="NEWGROUP">
+      <MenuMacro UID="ID_LayTrans">
+        <Macro type="Tools">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="ACAD_2411">CAD Standards, Layer Translator...</Name>
+          <Command>^C^C_laytrans </Command>
+          <HelpString xlate="true" UID="ACAD_2403">Translates layer names and properties:  LAYTRANS</HelpString>
+          <SmallImage Name="RCDATA_16_LAYTRANS" />
+          <LargeImage Name="RCDATA_16_LAYTRANS" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_LAYOFF">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0017">Layer, Layer Off</Name>
+          <Command>^C^C_layoff</Command>
+          <HelpString xlate="true" UID="XLS_0270">Layers of selected object(s) will be turned off: LAYOFF</HelpString>
+          <SmallImage Name="RCDATA_16_OFFLAY" />
+          <LargeImage Name="RCDATA_16_OFFLAY" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_LAYON">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0019">Layer, Turn All Layers On</Name>
+          <Command>^C^C_layon</Command>
+          <HelpString xlate="true" UID="XLS_0339">Turns on all layers in drawing: LAYON</HelpString>
+          <SmallImage Name="RCDATA_16_ONLAY" />
+          <LargeImage Name="RCDATA_16_ONLAY" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_LAYISO">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0013">Layer, Layer Isolate</Name>
+          <Command>^C^C_layiso</Command>
+          <HelpString xlate="true" UID="XLS_0310">Layers of selected object(s) will be isolated: LAYISO</HelpString>
+          <SmallImage Name="RCDATA_16_LAYISO" />
+          <LargeImage Name="RCDATA_16_LAYISO" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Laymcur">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="ACAD_1757">Layer, Make Object's Layer Current</Name>
+          <Command>^C^C_Laymcur </Command>
+          <HelpString xlate="true" UID="ACAD_1773">Makes the layer of a selected object the current layer: LAYMCUR</HelpString>
+          <SmallImage Name="RCDATA_16_MOLC" />
+          <LargeImage Name="RCDATA_16_MOLC" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MM_1613">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1252">Layer Properties Manager</Name>
+          <Command>'_layer</Command>
+          <HelpString xlate="true" UID="XLS_1253">Manages layers and layer properties:  LAYER</HelpString>
+          <SmallImage Name="RCDATA_16_LAYERS" />
+          <LargeImage Name="RCDATA_16_LAYERS" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_LAYFRZ">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0021">Layer, Layer Freeze</Name>
+          <Command>^C^C_layfrz</Command>
+          <HelpString xlate="true" UID="XLS_0263">Layers of selected object(s) will be frozen: LAYFRZ</HelpString>
+          <SmallImage Name="RCDATA_16_FRZLAY" />
+          <LargeImage Name="RCDATA_16_FRZLAY" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_LayerP">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="ACAD_2427">Layer, Layer Previous</Name>
+          <Command>^C^C_LayerP </Command>
+          <HelpString xlate="true" UID="ACAD_2396">Restores the previous layer settings:  LAYERP</HelpString>
+          <SmallImage Name="RCDATA_16_LAYERP" />
+          <LargeImage Name="RCDATA_16_LAYERP" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_LayerStatesMgr">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_6512">Layer States Manager</Name>
+          <Command>^C^C_LAYERSTATE</Command>
+          <HelpString xlate="true" UID="XLS_6513">Manages layer states: LAYERSTATE</HelpString>
+          <SmallImage Name="RCDATA_16_LAYSTATE" />
+          <LargeImage Name="RCDATA_16_LAYSTATE" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_QNew">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="ACAD_508">QNew</Name>
+          <Command>^C^C_qnew </Command>
+          <HelpString xlate="true" UID="ACAD_2501">Creates a blank drawing file:  QNEW</HelpString>
+          <SmallImage Name="RCDATA_16_NEW" />
+          <LargeImage Name="RCDATA_16_NEW" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Open">
+        <Macro type="File">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="ACAD_30">Open...</Name>
+          <Command>^C^C_open </Command>
+          <HelpString xlate="true" UID="ACAD_1561">Opens an existing drawing file:  OPEN</HelpString>
+          <SmallImage Name="RCDATA_16_OPEN" />
+          <LargeImage Name="RCDATA_16_OPEN" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0025">
+        <Macro type="File">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="ACAD_31">Save</Name>
+          <Command>^C^C_qsave </Command>
+          <HelpString xlate="true" UID="ACAD_1604">Saves the current drawing:  QSAVE</HelpString>
+          <SmallImage Name="RCDATA_16_SAVE" />
+          <LargeImage Name="RCDATA_16_SAVE" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0001">
+        <Macro type="File">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_6514">Save</Name>
+          <Command>^C^C_zoom _e;-PURGE;ALL;;N;-scalelistedit;r;y;e;^C^C_qsave</Command>
+          <HelpString xlate="true" UID="XLS_6515">Saves the current drawing:  QSAVE</HelpString>
+          <SmallImage Name="SAVE2.BMP" />
+          <LargeImage Name="SAVE2.BMP" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Save">
+        <Macro type="File">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="ACAD_31">Close</Name>
+          <Command>^C^C_zoom _e;-PURGE;ALL;;N;-scalelistedit;r;y;e;;^C^C(IF (NOT RELXREF)(LOAD "RELXREF"));^C^C_xrp;^C^C_qsave;^C^C_close</Command>
+          <HelpString xlate="true" UID="ACAD_1604">Saves the current drawing:  QSAVE</HelpString>
+          <SmallImage Name="RCDATA_16_HLNK_STOP" />
+          <LargeImage Name="RCDATA_16_HLNK_STOP" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Print">
+        <Macro type="File">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="ACAD_36">Plot...</Name>
+          <Command>^C^C_plot </Command>
+          <HelpString xlate="true" UID="ACAD_1588">Prints a drawing to a plotter, printer, or file:  PLOT</HelpString>
+          <SmallImage Name="RCDATA_16_PRINT" />
+          <LargeImage Name="RCDATA_16_PRINT" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Preview">
+        <Macro type="File">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="ACAD_35">Plot Preview</Name>
+          <Command>^C^C_preview </Command>
+          <HelpString xlate="true" UID="ACAD_1594">Shows how the drawing will look when it is printed or plotted:  PREVIEW</HelpString>
+          <SmallImage Name="RCDATA_16_PREVIEW" />
+          <LargeImage Name="RCDATA_16_PREVIEW" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Matchprop">
+        <Macro type="Modify">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="ACAD_335">Match Properties</Name>
+          <Command>'_matchprop </Command>
+          <HelpString xlate="true" UID="ACAD_1529">Applies the properties of a selected object to other objects:  MATCHPROP</HelpString>
+          <SmallImage Name="RCDATA_16_MATCH" />
+          <LargeImage Name="RCDATA_16_MATCH" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Bedit">
+        <Macro type="Tools">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="ACAD_2632">Block Editor</Name>
+          <Command>^C^C_bedit </Command>
+          <HelpString xlate="true" UID="ACAD_2628">Opens the block definition in the Block Editor: BEDIT</HelpString>
+          <SmallImage Name="RCDATA_16_BEDIT" />
+          <LargeImage Name="RCDATA_16_BEDIT" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MM_1573">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1082">Zoom Realtime</Name>
+          <Command>'_zoom ;</Command>
+          <HelpString xlate="true" UID="XLS_1081">Zooms to increase or decrease the apparent size of objects in the current viewport:  ZOOM</HelpString>
+          <SmallImage Name="RCDATA_16_RTZOOM" />
+          <LargeImage Name="RCDATA_16_RTZOOM" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MM_1574">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1085">Zoom Window</Name>
+          <Command>'_zoom _w </Command>
+          <HelpString xlate="true" UID="XLS_1086">Zooms to increase or decrease the apparent size of objects in the current viewport:  ZOOM</HelpString>
+          <SmallImage Name="RCDATA_16_ZOOWIN" />
+          <LargeImage Name="RCDATA_16_ZOOWIN" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MM_1575">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1089">Zoom Dynamic</Name>
+          <Command>$M=$(if,$(eq,$(getvar,perspective),0),'_zoom _d,'_zoom;)</Command>
+          <HelpString xlate="true" UID="XLS_1090">Zooms to display the generated portion of the drawing:  ZOOM</HelpString>
+          <SmallImage Name="RCDATA_16_ZOODYN" />
+          <LargeImage Name="RCDATA_16_ZOODYN" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MM_1576">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1093">Zoom Scale</Name>
+          <Command>$M=$(if,$(eq,$(getvar,perspective),0),'_zoom _s,'_zoom;)</Command>
+          <HelpString xlate="true" UID="XLS_1094">Zooms the display using a specified scale factor:  ZOOM</HelpString>
+          <SmallImage Name="RCDATA_16_ZOOSCA" />
+          <LargeImage Name="RCDATA_16_ZOOSCA" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MM_1577">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1097">Zoom Center</Name>
+          <Command>$M=$(if,$(eq,$(getvar,perspective),0),'_zoom _c,'_zoom;)</Command>
+          <HelpString xlate="true" UID="XLS_1098">Zooms to display a view specified by a center point and magnification or height:  ZOOM</HelpString>
+          <SmallImage Name="RCDATA_16_ZOOCEN" />
+          <LargeImage Name="RCDATA_16_ZOOCEN" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MM_1578">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1101">Zoom Object</Name>
+          <Command>$M=$(if,$(eq,$(getvar,perspective),0),'_zoom _o,'_zoom;)</Command>
+          <HelpString xlate="true" UID="XLS_1102">Zooms to display an area specified by the extents of an object:  ZOOM</HelpString>
+          <SmallImage Name="RCDATA_16_ZOOOBJ" />
+          <LargeImage Name="RCDATA_16_ZOOOBJ" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MM_1579">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1105">Zoom In</Name>
+          <Command>$M=$(if,$(eq,$(getvar,perspective),0),'_zoom 2x,'_zoom;)</Command>
+          <HelpString xlate="true" UID="XLS_1106">Zooms to increase the apparent size of objects:  ZOOM</HelpString>
+          <SmallImage Name="RCDATA_16_ZOOIN" />
+          <LargeImage Name="RCDATA_16_ZOOIN" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MM_1580">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1109">Zoom Out</Name>
+          <Command>$M=$(if,$(eq,$(getvar,perspective),0),'_zoom .5x,'_zoom;)</Command>
+          <HelpString xlate="true" UID="XLS_1110">Zooms to decrease the apparent size of objects:  ZOOM</HelpString>
+          <SmallImage Name="RCDATA_16_ZOOOUT" />
+          <LargeImage Name="RCDATA_16_ZOOOUT" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_ZoomAll">
+        <Macro type="View">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="ACAD_74">Zoom, All</Name>
+          <Command>'_zoom _all </Command>
+          <HelpString xlate="true" UID="ACAD_1732">Zooms to display the drawing extents or the grid limits:  ZOOM</HelpString>
+          <SmallImage Name="RCDATA_16_ZOOALL" />
+          <LargeImage Name="RCDATA_16_ZOOALL" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MM_1582">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="XLS_1117">Zoom Extents</Name>
+          <Command>'_zoom _e </Command>
+          <HelpString xlate="true" UID="XLS_1118">Zooms to display the drawing extents:  ZOOM</HelpString>
+          <SmallImage Name="RCDATA_16_ZOOEXT" />
+          <LargeImage Name="RCDATA_16_ZOOEXT" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_QCalc">
+        <Macro type="Tools">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="0" />
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Name xlate="true" UID="ACAD_2663">QuickCalc</Name>
+          <Command>$M=$(if,$(eq,$(getvar,qcstate),0),'_quickcalc,'_qcclose)</Command>
+          <HelpString xlate="true" UID="XLS_0056">Shows or hides the calculator: QUICKCALC</HelpString>
+          <SmallImage Name="RCDATA_16_QCALC" />
+          <LargeImage Name="RCDATA_16_QCALC" />
+        </Macro>
+      </MenuMacro>
+    </MacroGroup>
+    <MenuRoot>
+      <AcceleratorRoot />
+      <OverrideRoot />
+      <MouseButtonRoot>
+        <ButtonGroup UID="BGU_0001">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>ALTERNATE AUX1</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0001">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0002">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0003">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0004">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0005">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0006">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0007">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+        <ButtonGroup UID="BGU_0002">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>ALTERNATE AUX2</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0008">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0009">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0010">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0011">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0012">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0013">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0014">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+        <ButtonGroup UID="BGU_0003">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>ALTERNATE AUX3</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0015">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0016">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0017">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0018">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0019">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0020">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0021">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+        <ButtonGroup UID="BGU_0004">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>ALTERNATE AUX4</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0022">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0023">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0024">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0025">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0026">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0027">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+          <ButtonItem BlankLine="true" UID="BIU_0028">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+      </MouseButtonRoot>
+      <DigitizerButtonRoot>
+        <ButtonGroup UID="BGU_0005">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>ALTERNATE BUTTONS1</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0029">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+        <ButtonGroup UID="BGU_0006">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>ALTERNATE BUTTONS2</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0030">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+        <ButtonGroup UID="BGU_0007">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>ALTERNATE BUTTONS3</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0031">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+        <ButtonGroup UID="BGU_0008">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>ALTERNATE BUTTONS4</Alias>
+          <ButtonItem BlankLine="true" UID="BIU_0032">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ButtonItem>
+        </ButtonGroup>
+      </DigitizerButtonRoot>
+      <PopMenuRoot />
+      <ToolbarRoot>
+        <Toolbar ToolbarOrient="top" ToolbarVisible="show" xval="1" yval="1" rows="1" UID="ID_TbLayer">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>TB_LAYER</Alias>
+          <Alias>Layers</Alias>
+          <Description xlate="true" UID="XLS_0002">Layers Toolbar</Description>
+          <Name xlate="true" UID="XLS_0001">Layers</Name>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0001">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0003">Layer Translator...</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_LayTrans" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0002">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0004">Layer, Layer Off</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_LAYOFF" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0003">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0005">Layer, Turn All Layers On</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_LAYON" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0004">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0006">Layer, Layer Isolate</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_LAYISO" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0005">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0007">Layer, Make Object's Layer Current</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Laymcur" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0006">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0008">Layer Properties Manager</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MM_1613" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarControl Control="LayerControl" UID="TBCU_0001">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarControl>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0007">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0009">Layer, Layer Freeze</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_LAYFRZ" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0008">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0010">Layer Previous</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_LayerP" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0009">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0011">Layer States Manager</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_LayerStatesMgr" />
+            </MenuItem>
+          </ToolbarButton>
+        </Toolbar>
+        <Toolbar ToolbarOrient="top" ToolbarVisible="show" xval="0" yval="0" rows="1" UID="ID_TbStandar">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>TB_STANDARD</Alias>
+          <Alias>Standard</Alias>
+          <Description xlate="true" UID="XLS_0013">Standard Toolbar</Description>
+          <Name xlate="true" UID="XLS_0012">Standard</Name>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0010">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0014">QNew</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_QNew" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0011">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0015">Open...</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Open" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0012">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0016">Save</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0025" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0013">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0017">Save</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0001" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0014">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0018">Close</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Save" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0015">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0016">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0019">Plot...</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Print" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0017">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0020">Plot Preview</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Preview" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0018">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0019">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0021">Match Properties</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Matchprop" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0020">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0022">Block Editor</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Bedit" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0021">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarControl Control="UndoSkinnyButtonControl" UID="TBCU_0002">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarControl>
+          <ToolbarControl Control="RedoSkinnyButtonControl" UID="TBCU_0003">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarControl>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0022">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0023">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0023">Zoom Realtime</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MM_1573" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarFlyout UseOwnIcon="false" pTargetAlias="TB_ZOOM" UID="ID_TbZoom">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <FlyoutName xlate="true" UID="XLS_0024">Zoom</FlyoutName>
+            <SmallImage Name="RCDATA_16_ZOOM" />
+            <LargeImage Name="RCDATA_16_ZOOM" />
+          </ToolbarFlyout>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0035">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0036">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0035">QuickCalc</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_QCalc" />
+            </MenuItem>
+          </ToolbarButton>
+        </Toolbar>
+        <Toolbar ToolbarOrient="floating" ToolbarVisible="hide" xval="100" yval="350" rows="1" UID="TB_0002">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>TB_ZOOM</Alias>
+          <Alias>Zoom</Alias>
+          <Name xlate="true" UID="XLS_0025">Zoom</Name>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0024">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0026">Zoom Window</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MM_1574" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0025">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0027">Zoom Dynamic</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MM_1575" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0026">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0028">Zoom Scale</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MM_1576" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0027">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0029">Zoom Center</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MM_1577" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0028">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0030">Zoom Object</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MM_1578" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0029">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0030">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0031">Zoom In</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MM_1579" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0031">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0032">Zoom Out</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MM_1580" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true" UID="TBBU_0032">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0033">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0033">Zoom All</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_ZoomAll" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0034">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0034">Zoom Extents</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MM_1582" />
+            </MenuItem>
+          </ToolbarButton>
+        </Toolbar>
+      </ToolbarRoot>
+      <ScreenMenuRoot />
+      <ImageMenuRoot />
+      <TabletMenuRoot>
+        <TabletMenu TabletArea="9" Rows="3" Columns="3" UID="TMU_0001">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>Alternate Tablet Menu 1</Alias>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0001">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0002">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0003">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0004">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0005">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0006">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0007">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0008">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0009">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+        </TabletMenu>
+        <TabletMenu TabletArea="9" Rows="3" Columns="3" UID="TMU_0002">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>Alternate Tablet Menu 2</Alias>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0010">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0011">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0012">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0013">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0014">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0015">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0016">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0017">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0018">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+        </TabletMenu>
+        <TabletMenu TabletArea="9" Rows="3" Columns="3" UID="TMU_0003">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>Alternate Tablet Menu 3</Alias>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0019">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0020">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0021">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0022">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0023">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0024">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0025">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0026">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0027">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+        </TabletMenu>
+        <TabletMenu TabletArea="9" Rows="3" Columns="3" UID="TMU_0004">
+          <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          <Alias>Alternate Tablet Menu 4</Alias>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0028">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0029">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0030">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0031">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0032">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0033">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0034">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0035">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+          <TabletMenuItem BlankLine="true" UID="TMIU_0036">
+            <ModifiedRev MajorVersion="17" MinorVersion="1" UserVersion="1" />
+          </TabletMenuItem>
+        </TabletMenu>
+      </TabletMenuRoot>
+      <DoubleClickRoot />
+      <ToolPanelRoot />
+      <PanelSetRoot>
+        <PanelSet UID="PSTU_0001" />
+      </PanelSetRoot>
+    </MenuRoot>
+  </MenuGroup>
+</CustSection>
