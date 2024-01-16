@@ -1,0 +1,8 @@
+aanduid         C006000
+aantpel         N003000
+diameter        N002000
+wapkwali        C005000
+tlengte         N007000
+aantel          N003000
+totlengte       N008000
+elmntnm         C060000
