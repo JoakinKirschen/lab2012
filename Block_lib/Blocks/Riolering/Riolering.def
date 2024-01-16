@@ -1,0 +1,22 @@
+;-------------------------------------------------------------------------------
+; Riolering.def
+;-------------------------------------------------------------------------------
+"aquadrain","Current layer","User selects","10","0","0","0","0"
+"deksel_17x17","Current layer","User selects","10","0","0","0","0"
+"deksel_20x20","Current layer","User selects","10","0","0","0","0"
+"deksel_33x33_1","Current layer","User selects","10","0","0","0","0"
+"deksel_33x33_2","Current layer","User selects","10","0","0","0","0"
+"klokput_16x16","Current layer","User selects","10","0","0","0","0"
+"klokput_20x20","Current layer","User selects","10","0","0","0","0"
+"mazouttank_boven","Current layer","User selects","10","0","0","0","0"
+"mazouttank_zij","Current layer","User selects","10","0","0","0","0"
+"putl_1deksel","Current layer","User selects","10","0","0","0","0"
+"putm_1deksel","Current layer","User selects","10","0","0","0","0"
+"putrechtm_1deksel","Current layer","User selects","10","0","0","0","0"
+"putrechts_1deksel","Current layer","User selects","10","0","0","0","0"
+"putrecht_1-5deksels","Current layer","User selects","10","0","0","0","0"
+"putrecht_2deksels","Current layer","User selects","10","0","0","0","0"
+"putrecht_3deksels","Current layer","User selects","10","0","0","0","0"
+"puts_1deksel","Current layer","User selects","10","0","0","0","0"
+"rwputgr_2deksels","Current layer","User selects","10","0","0","0","0"
+"rwputkl_2deksels","Current layer","User selects","10","0","0","0","0"
