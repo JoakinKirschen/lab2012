@@ -1,0 +1,19 @@
+;-------------------------------------------------------------------------------
+; Sel_Lib.dat
+;-------------------------------------------------------------------------------
+"Auto's","\Blocks\Auto's\Autos.def","\Blocks\Auto's\Autos.def"
+"Block","\Custom\Blk_Lib\Blk_Lib.def","\Custom\Blk_Lib\Blk_Lib.def"
+"Bomen en struiken","\Blocks\Bomen_en_struiken\Bomen en struiken.def","\Blocks\Bomen_en_struiken\Bomen en struiken.def"
+"Burelen","\Blocks\Burelen\Burelen.def","\Blocks\Burelen\Burelen.def"
+"Electriciteit","\Blocks\Electriciteit\Electriciteit.def","\Blocks\Electriciteit\Electriciteit.def"
+"ElekBlocks","\Blocks\ElekSymb\ElekBlocks.def","\Blocks\ElekSymb\ElekBlocks.def"
+"Industrie","\Blocks\Industrie\Industrie.def","\Blocks\Industrie\Industrie.def"
+"Keuken","\Blocks\Keuken\Keuken.def","\Blocks\Keuken\Keuken.def"
+"Personen","\Blocks\Personen\Personen.def","\Blocks\Personen\Personen.def"
+"Riolering","\Blocks\Riolering\Riolering.def","\Blocks\Riolering\Riolering.def"
+"Sanitair","\Blocks\Sanitair\Sanitair.def","\Blocks\Sanitair\Sanitair.def"
+"Signalisatie","\Blocks\Signalisatie\Signalisatie.def","\Blocks\Signalisatie\Signalisatie.def"
+"Slaapkamer","\Blocks\Slaapkamer\Slaapkamer.def","\Blocks\Slaapkamer\Slaapkamer.def"
+"Tafels & stoelen","\Blocks\Tafels&stoelen\Tafels & stoelen.def","\Blocks\Tafels&stoelen\Tafels & stoelen.def"
+"Terras","\Blocks\Terras\Terras.def","\Blocks\Terras\Terras.def"
+"Zetels","\Blocks\Zetels\Zetels.def","\Blocks\Zetels\Zetels.def"
