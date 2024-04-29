@@ -257,6 +257,7 @@
   (initerr) 
   (setvar "cmdecho" 0)
   (setq L12_factor (L12_getschaal))
+  (setq dimsize (L12_getdimsz))
   (if (= (tblsearch "DIMSTYLE" "STIJL A") NIL)
     (C:DimStijlA)
   )
@@ -306,7 +307,7 @@
 	     oID (itoa (vla-get-objectid (vlax-ename->vla-object en)))
 	   )
 	 )
-					;	  %<\AcObjProp.16.2 Object(%<\_ObjId 8796088207472>%).Area \f "%lu2%pr2%ps[, m²]%ds44%ct8[1e-006]">%
+					;	  %<\AcObjProp.16.2 Object(%<\_ObjId 8796088207472>%).Area \f "%lu2%pr2%ps[, mÂ²]%ds44%ct8[1e-006]">%
 					;	  %<\AcObjProp.16.2 Object(%<\_ObjId 8796088211568>%).Length \f "%lu2%pr2%ps[, m]%ds44%ct8[0.001]">%
 
 	 (setq fld
@@ -315,7 +316,7 @@
 		    "OPP.= "
 		    "%<\\AcObjProp Object(%<\\_ObjId "
 		    oID
-		    ">%).Area \\f \"%lu2%pr2%ps[, m²]%ds44%ct8[1e-006]\">%"
+		    ">%).Area \\f \"%lu2%pr2%ps[, mÂ²]%ds44%ct8[1e-006]\">%"
 		    "\\P"
 		   )
 		  (strcat
@@ -350,6 +351,7 @@
   (initerr)  
   (setvar "cmdecho" 0)
   (setq L12_factor (L12_getschaal))
+  (setq dimsize (L12_getdimsz))
   (if (= (tblsearch "DIMSTYLE" "STIJL A") NIL)
     (C:DimStijlA)
   )
@@ -408,7 +410,7 @@
 		    "OPP.= "
 		    "%<\\AcObjProp Object(%<\\_ObjId "
 		    oID
-		    ">%).Area \\f \"%lu2%pr2%ps[, m²]%ds44%ct8[1e-006]\">%"
+		    ">%).Area \\f \"%lu2%pr2%ps[, mÂ²]%ds44%ct8[1e-006]\">%"
 		  )
 		)
 	 )
@@ -435,6 +437,7 @@
 (defun C:CustPerim (/ acsp adoc cpt elist en ent fld lpt oid osm )
   (initerr)  (setvar "cmdecho" 0)
   (L12_checkinstel)
+  (setq dimsize (L12_getdimsz))
   (if (= (tblsearch "DIMSTYLE" "STIJL Opm") NIL)
     (C:DimStijlOpm)
   )
