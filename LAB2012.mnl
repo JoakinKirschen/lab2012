@@ -61,7 +61,7 @@
 )
 
 ;;-----[ Globale variabelen ]-------------
-(setq L12_Lab_version 2012.59)
+(setq L12_Lab_version 2012.60)
 (setq L12_GMI_stamp "7139")
 (setq LabPathDest (vl-filename-directory (findfile "Lab2012.MNL")))
 (if (not(getenv "L12_Disipline"))(setenv "L12_Disipline" "AC-"))			;register presets
