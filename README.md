@@ -1,1 +1,1 @@
-To install: download the L12_setup.lsp file (you find it in the lisp folder) and drag it into autocad, the type L12_setup in the command line and the installation will start. Be pattient it can take a couple of minutes.
+To install: download the L12_setup.lsp file (you find it in the lisp folder) and drag it into autocad, the type L12_setup in the command line and the installation will start. Be patient it can take a couple of minutes.
